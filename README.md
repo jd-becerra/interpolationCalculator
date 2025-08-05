@@ -1,26 +1,29 @@
-# Visita la página: 
+# Visit the website (only Spanish language supported)
 # https://metodos-interpolacion.netlify.app/
 ![image](https://github.com/jd-becerra/interpolationCalculator/assets/112126654/3d882681-0ee4-4d51-a185-32274930d22e)
 
-Este proyecto es una herramienta interactiva para visualizar y comparar cuatro métodos de interpolación lineal, desarrollada para la clase de Matemáticas Discretas. Utiliza HTML, CSS y JavaScript para calcular y graficar aproximaciones de funciones, mostrando los resultados y el porcentaje de error.
+This project is an interactive tool to visualize and compare four linear interpolation methods, developed for a Discrete Mathematics course. It uses HTML, CSS, and JavaScript to compute and graph function approximations, showing the results and the error percentage.
 
-## ¿Qué es la interpolación?
+## What is interpolation?
 
-La interpolación es una técnica matemática que nos permite estimar el valor de una función en un punto que se encuentra entre otros puntos de datos conocidos. Imagina que tienes una serie de mediciones, pero te falta un dato intermedio; la interpolación te ayuda a predecir ese valor faltante basándote en los datos que ya tienes.
+Interpolation is a mathematical technique that allows us to estimate the value of a function at a point located between other known data points. Imagine you have a series of measurements, but one value in the middle is missing; interpolation helps you predict that missing value based on the data you already have.
 
-## Características Principales
+## Main Features
 
-1. Explora y compara los resultados de los siguientes métodos de interpolación:
-    - **Lineal**: Utiliza una línea recta para conectar dos puntos de datos y estimar un valor intermedio. Es el método más simple, pero también el menos preciso si la función real no es lineal.
-    - **Cuadrático**: Utiliza una parábola (función de segundo grado) que pasa por tres puntos para obtener una aproximación más suave y, a menudo, más precisa que la interpolación lineal.
-    - **Lagrange de primer y segundo orden**: Estos métodos construyen un polinomio que pasa exactamente por los puntos de datos. El de primer orden usa dos puntos (como el lineal), mientras que el de segundo orden usa tres puntos (como el cuadrático), proporcionando una aproximación más robusta.
-2. Según el método utilizado,  se requerirán dos o tres puntos de datos existentes y una variable x para la cual se calculará la aproximación de f(x).
-3. Visualización con GeoGebra: Unas vez obtenido el resultado, se graficará en una interfaz de GeoGebra, mostrando las funciones de las variables, la aproximación de x y su valor.
-4. Detección de interpolación y extrapolación: El sistema etiqueta en Geogebra si la aproximación de x es una interpolación (dentro del rango de los puntos de datos) o una extrapolación (fuera del rango).
-5. Análisis de error: Calcula y muestra el porcentaje de error relativo entre el valor aproximado de f(x) y un valor real proporcionado por el usuario, ofreciendo una métrica de la precisión de cada método.
+1. Explore and compare the results of the following interpolation methods:
 
-## Tecnologías Utilizadas
-- HTML: Para la estructura de la página web.
-- CSS: Para el diseño y la presentación visual.
-- JavaScript: Para la lógica de cálculo de las interpolaciones y la interacción con la API de GeoGebra.
-- GeoGebra API: Para la representación gráfica de las funciones y los puntos en el plano cartesiano.
+   * **Linear**: Uses a straight line to connect two data points and estimate an intermediate value. It is the simplest method, but also the least accurate if the actual function is not linear.
+   * **Quadratic**: Uses a parabola (second-degree function) that passes through three points to obtain a smoother and often more accurate approximation than linear interpolation.
+   * **Lagrange first and second order**: These methods construct a polynomial that passes exactly through the data points. The first-order uses two points (like the linear method), while the second-order uses three points (like the quadratic), providing a more robust approximation.
+2. Depending on the method used, two or three existing data points and a variable x for which the approximation of f(x) will be calculated are required.
+3. Visualization with GeoGebra: Once the result is obtained, it will be graphed in a GeoGebra interface, showing the variable functions, the approximation of x, and its value.
+4. Interpolation and extrapolation detection: The system labels in GeoGebra whether the approximation of x is an interpolation (within the data point range) or an extrapolation (outside the range).
+5. Error analysis: Calculates and displays the relative error percentage between the approximate value of f(x) and a real value provided by the user, offering a metric of each method’s accuracy.
+
+## Technologies Used
+
+* HTML: For the structure of the web page.
+* CSS: For the design and visual presentation.
+* JavaScript: For the interpolation calculation logic and interaction with the GeoGebra API.
+* GeoGebra API: For the graphical representation of functions and points on the Cartesian plane.
+
